@@ -1,6 +1,6 @@
 # ⛽ Fuel Price Optimization — Machine Learning & Streamlit Application
 
-👉 Streamlit App: [https://fuel-price-optimization-ml-system-abhishek9172.streamlit.app/](https://fuel-price-optimization-ml-system-abhishek9172.streamlit.app/)
+👉 Streamlit App: [https://fuel-price-optimization-ml-app-abhishektadaskar9172.streamlit.app/](https://fuel-price-optimization-ml-app-abhishektadaskar9172.streamlit.app/)
 
 ---
 
@@ -68,8 +68,20 @@ graph TD
     B -->|Processed Dataset| C{Demand ML Model}
     C -->|Predict Volume| D[Price Optimization Engine]
     D -->|Best Price| E[Streamlit UI Dashboard]
-    style C fill:#f96,stroke:#333,stroke-width:2px
-    style E fill:#4B9CD3,stroke:#333,stroke-width:4px
+
+    %% Node Styles
+    style A fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
+    style B fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#f96,stroke:#333,stroke-width:2px,color:#000
+    style D fill:#ffffff,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#4B9CD3,stroke:#333,stroke-width:4px,color:#000
+    
+    %% Link/Edge Text Styles (Black Text for Labels)
+    linkStyle 0 stroke:#333,stroke-width:2px,color:#000
+    linkStyle 1 stroke:#333,stroke-width:2px,color:#000
+    linkStyle 2 stroke:#333,stroke-width:2px,color:#000
+    linkStyle 3 stroke:#333,stroke-width:2px,color:#000
+    linkStyle 4 stroke:#333,stroke-width:2px,color:#000
 
 ```
 
