@@ -1,4 +1,7 @@
 # ⛽ Fuel Price Optimization — Machine Learning & Streamlit Application
+---
+👉 Streamlit App: [https://fuel-price-optimization-ml-system-abhishek9172.streamlit.app/](https://fuel-price-optimization-ml-system-abhishek9172.streamlit.app/)
+
 
 This project implements an end-to-end **Fuel Price Optimization System** that recommends the **optimal daily fuel retail price** to maximize total profit. The solution combines:
 
